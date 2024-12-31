@@ -19,7 +19,6 @@ bool contains(vector<int> update, int page){
 
 bool inOrder(map <int, int> instructions, vector<int> page1, vector<int> page2, vector<int> update){
    int invalid = 0;
-   
    for(int i = 0; i < page1.size(); i++){
       int rule1 = page1.at(i);
       int rule2 = page2.at(i);
