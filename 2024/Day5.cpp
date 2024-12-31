@@ -8,7 +8,6 @@
 #include <algorithm>
 using namespace std;
 
-
 bool contains(vector<int> update, int page){
    for(int i = 0; i < update.size(); i++){
       if(update[i] == page){
